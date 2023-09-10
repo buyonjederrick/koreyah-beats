@@ -71,7 +71,7 @@ const SoundItem: React.FC<SoundItemProps> = ({
         </p>
         <p 
           className="
-            text-neutral-400
+            text-white
             font-semibold
             text-sm 
             pb-4 
@@ -79,7 +79,7 @@ const SoundItem: React.FC<SoundItemProps> = ({
             truncate
           "
         >
-          By {data.author}
+          {data.category}
         </p>
         
       </div>
