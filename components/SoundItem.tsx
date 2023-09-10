@@ -63,7 +63,6 @@ const SoundItem: React.FC<SoundItemProps> = ({
           className="
             text-neutral-400 
             text-sm 
-            pb-4 
             w-full 
             truncate
           "
@@ -72,7 +71,8 @@ const SoundItem: React.FC<SoundItemProps> = ({
         </p>
         <p 
           className="
-            text-neutral-400 
+            text-neutral-400
+            font-semibold
             text-sm 
             pb-4 
             w-full 
