@@ -70,9 +70,18 @@ const SoundItem: React.FC<SoundItemProps> = ({
         >
           By {data.author}
         </p>
-        <p className="font-semibold  pb-4 text-white truncate w-full">
-          {data.category}
+        <p 
+          className="
+            text-neutral-400 
+            text-sm 
+            pb-4 
+            w-full 
+            truncate
+          "
+        >
+          By {data.author}
         </p>
+        
       </div>
       <div 
         className="
