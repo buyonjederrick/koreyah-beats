@@ -61,6 +61,9 @@ const MediaItem: React.FC<MediaItemProps> = ({
         <p className="text-neutral-400 text-sm truncate">
           By {data.author}
         </p>
+        <p className="text-white text-sm truncate">
+          By {data.category}
+        </p>
       </div>
     </div>
   );
